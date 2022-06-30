@@ -259,8 +259,9 @@ background: linear-gradient(0deg, rgba(231,231,231,1) 0%, rgba(245,248,252,1) 10
         height: 75vh;
 	}
 	p {
-		font-size: clamp(25px, 4vw, 40px);
+		// font-size: clamp(25px, 4vw, 40px);
 		margin-top: 10px;
+		font-size: 1.5em;
 	}
 }
 
@@ -698,6 +699,30 @@ background: linear-gradient(128deg, rgba(255,255,255,1) 33%, rgba(255,233,233,1)
 		line-height: 2em;
 	}
 }
+
+.bottom-footer {
+	* {
+		padding: 0;
+		margin:0;
+	}
+	padding:3vh 0;
+	ul {
+		// float:right;
+		padding:0;
+		li {
+			display: inline-block;
+			margin:0 3px;
+			a {
+				font-size: 0.8em;
+				color:#000;
+			}
+		}
+	}
+	p {
+		font-size: 0.8em;
+	}
+}
+
 
 @media screen and (max-width:576px) {
 	.sect03 {

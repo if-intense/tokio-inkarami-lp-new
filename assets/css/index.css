@@ -221,8 +221,8 @@ body {
   height: 75vh;
 }
 .sect01 p {
-  font-size: clamp(25px, 4vw, 40px);
   margin-top: 10px;
+  font-size: 1.5em;
 }
 
 .sect02 {
@@ -620,6 +620,28 @@ body {
 }
 .top-footer p {
   line-height: 2em;
+}
+
+.bottom-footer {
+  padding: 3vh 0;
+}
+.bottom-footer * {
+  padding: 0;
+  margin: 0;
+}
+.bottom-footer ul {
+  padding: 0;
+}
+.bottom-footer ul li {
+  display: inline-block;
+  margin: 0 3px;
+}
+.bottom-footer ul li a {
+  font-size: 0.8em;
+  color: #000;
+}
+.bottom-footer p {
+  font-size: 0.8em;
 }
 
 @media screen and (max-width: 576px) {
